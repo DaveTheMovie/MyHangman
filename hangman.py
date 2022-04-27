@@ -21,7 +21,7 @@ def get_valid_word(words):
     while '-' in word or ' ' in word:
         word = random.choice(words)
 
-    return "RABBIT" #word.upper()
+    return "TWIRP" #word.upper()
 
 
 def hangman():
